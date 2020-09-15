@@ -1,0 +1,6 @@
+projectKey=org.sonarqube:sonarscanner-maven-aggregate
+serverUrl=http://sq84.jting.us.ngrok.io
+serverVersion=8.4.2.36762
+dashboardUrl=http://sq84.jting.us.ngrok.io/dashboard?id=org.sonarqube%3Asonarscanner-maven-aggregate
+ceTaskId=AXSTqPP5vmjfJ9hczhmJ
+ceTaskUrl=http://sq84.jting.us.ngrok.io/api/ce/task?id=AXSTqPP5vmjfJ9hczhmJ

@@ -1,0 +1,5 @@
+#surefire_1
+#Tue Sep 15 16:25:22 CDT 2020
+basedir=/Users/jting/Projects/maven-multimodule/module2
+user.dir=/Users/jting/Projects/maven-multimodule/module2
+localRepository=/Users/jting/.m2/repository
