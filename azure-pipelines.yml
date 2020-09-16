@@ -14,6 +14,10 @@ steps:
   inputs:
     SonarQube: 'sonarqubejojo'
     scannerMode: 'Other'
+- task: SonarQubePublish@4
+  inputs:
+    pollingTimeoutSec: '300'
+- task: SonarQubeAnalyze@4
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
