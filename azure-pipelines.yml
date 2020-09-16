@@ -14,10 +14,6 @@ steps:
   inputs:
     SonarQube: 'sonarqubejojo'
     scannerMode: 'Other'
-- task: SonarQubePublish@4
-  inputs:
-    pollingTimeoutSec: '300'
-- task: SonarQubeAnalyze@4
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
@@ -30,6 +26,10 @@ steps:
     effectivePomSkip: false
     sonarQubeRunAnalysis: true
     sqMavenPluginVersionChoice: 'latest'
+- task: SonarQubePublish@4
+  inputs:
+    pollingTimeoutSec: '300'
+- task: SonarQubeAnalyze@4
 - task: PublishCodeCoverageResults@1
   inputs:
     codeCoverageTool: 'JaCoCo'
