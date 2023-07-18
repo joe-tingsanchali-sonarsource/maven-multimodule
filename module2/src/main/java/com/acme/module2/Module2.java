@@ -13,4 +13,8 @@ public class Module2 {
   public void uncovered() {
     System.out.println("This method is not covered");
   }
+
+  public void uncoveredYetAgain() {
+    System.out.println("This method is not covered either");
+  }
 }
